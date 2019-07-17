@@ -1,7 +1,11 @@
+/* eslint-disable no-useless-constructor */
 import React from "react";
 import "./Track.css";
 
 class Track extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <div className="Track">
